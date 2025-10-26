@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Quote Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 Dynamic Quote Generator</h1>
+  </header>
+
+  <main>
+    <!-- Quote Display Section -->
+    <section id="quote-section">
+      <h2>Select a Category</h2>
+      <select id="categorySelect">
+        <option value="">-- Choose a category --</option>
+      </select>
+
+      <div id="quoteDisplay" class="quote-box">
+        <p>Select a category to see a quote.</p>
+      </div>
+
+      <button id="newQuoteBtn">Get New Quote</button>
+    </section>
+
+    <!-- Add New Quote Section -->
+    <section id="add-section">
+      <h3>Add New Quote</h3>
+      <input type="text" id="newCategory" placeholder="Enter new category" />
+      <input type="text" id="newQuote" placeholder="Enter new quote" />
+      <button id="addQuoteBtn">Add Quote</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Owusu Asiedu — ALX Frontend DOM Manipulation Task</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
